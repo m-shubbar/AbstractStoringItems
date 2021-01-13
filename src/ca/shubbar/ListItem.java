@@ -25,6 +25,7 @@ public abstract class ListItem {
 
     abstract int compareTo(ListItem item);
 
+    
     public Object getValue() {
         return this.value;
     }
